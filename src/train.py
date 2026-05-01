@@ -14,9 +14,9 @@ TICKERS = [
 ]
 
 dagshub.init(
-    repo_owner="meghrajjare5273",
-    repo_name="mlops-aqi",
-    mlflow=True,
+    repo_owner="gulabjangid",
+    repo_name="Mlopbackend",
+    mlflow=True
 )
 
 mlflow.set_experiment("stock-forecast-multi-ticker")
