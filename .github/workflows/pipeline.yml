@@ -122,9 +122,9 @@ jobs:
 
       - name: Train all models
         env:
-          DAGSHUB_USER_TOKEN: ${{ secrets.DAGSHUB_TOKEN }}
-          MLFLOW_TRACKING_USERNAME: ${{ secrets.DAGSHUB_USERNAME }}
-          MLFLOW_TRACKING_PASSWORD: ${{ secrets.DAGSHUB_TOKEN }}
+          DAGSHUB_USER_TOKEN: ${{ secrets.Gulab  }}
+          MLFLOW_TRACKING_USERNAME: ${{ secrets.Gulab }}
+          MLFLOW_TRACKING_PASSWORD: ${{ secrets.Gulab }}
         working-directory: src
         run: |
           source ../${{ env.VENV_PATH }}/bin/activate
