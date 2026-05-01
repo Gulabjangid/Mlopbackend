@@ -7,4 +7,4 @@ services:
     healthCheckPath: /health
     envVars:
       - key: HF_REPO_ID
-        value: meghrajjare5273/stock-forecast
+        value: gulabjangid/Stock_forecast
