@@ -15,8 +15,8 @@ import os
 import pickle
 from datetime import datetime, timezone
 from huggingface_hub import HfApi, ModelCard, ModelCardData
+REPO_ID = "gulabjangid/Stock_forecast"
 
-REPO_ID  = "meghrajjare5273/stock-forecast"
 RUN_DATE = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
 TICKERS = {
