@@ -13,7 +13,7 @@ from prophet import Prophet
 import uvicorn
 
 # ── Config ────────────────────────────────────────────────────────────────────
-REPO_ID = os.environ.get("HF_REPO_ID", "meghrajjare5273/stock-forecast")
+REPO_ID = os.environ.get("HF_REPO_ID")
 
 # Local model directory — resolve in priority order:
 #   1. MODEL_DIR env var (set this on any platform to a writable path)
