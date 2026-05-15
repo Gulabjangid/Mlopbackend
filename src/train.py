@@ -18,8 +18,9 @@ dagshub.init(
     repo_name="Mlopbackend",
     mlflow=True
 )
+mlflow.set_experiment("stock-forecast-prophet")
 
-mlflow.set_experiment("stock-forecast-multi-ticker")
+# mlflow.set_experiment("stock-forecast-multi-ticker")
 
 for ticker in TICKERS:
     safe = ticker.replace(".", "_")
@@ -37,7 +38,7 @@ for ticker in TICKERS:
     cutoff   = df["ds"].max() - pd.Timedelta(days=30)
     train_df = df[df["ds"] <= cutoff].copy()
     test_df  = df[df["ds"] >  cutoff].copy()
-
+  
     with mlflow.start_run(run_name=f"prophet_{safe}"):
         mlflow.set_tag("ticker", ticker)
         mlflow.set_tag("model_type", "Prophet")
