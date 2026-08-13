@@ -1,5 +1,4 @@
 ds,y,ticker,name
-2021-08-12,390.7342529296875,SBIN.NS,State Bank of India
 2021-08-13,394.43902587890625,SBIN.NS,State Bank of India
 2021-08-16,388.6303405761719,SBIN.NS,State Bank of India
 2021-08-17,385.56591796875,SBIN.NS,State Bank of India
@@ -1237,4 +1236,5 @@ ds,y,ticker,name
 2026-08-07,1097.199951171875,SBIN.NS,State Bank of India
 2026-08-10,1071.0,SBIN.NS,State Bank of India
 2026-08-11,1066.0,SBIN.NS,State Bank of India
-2026-08-12,,SBIN.NS,State Bank of India
+2026-08-12,1082.0,SBIN.NS,State Bank of India
+2026-08-13,,SBIN.NS,State Bank of India
